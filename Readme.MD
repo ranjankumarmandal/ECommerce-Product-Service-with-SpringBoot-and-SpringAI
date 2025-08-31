@@ -37,7 +37,7 @@ mvn spring-boot:run
 
 ## API Endpoints
 
-### GET http://localhost:8080/api/ai/ask?prompt=Tell me a joke
+### Ask Any Questions To Our Local LLM / AI: GET http://localhost:8080/api/ai/ask?prompt=Tell me a joke
 
 ### Add a Single Product: POST /api/products
 
