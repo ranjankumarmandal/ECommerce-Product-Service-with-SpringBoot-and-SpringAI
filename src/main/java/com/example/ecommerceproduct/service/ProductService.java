@@ -2,7 +2,7 @@ package com.example.ecommerceproduct.service;
 
 import com.example.ecommerceproduct.entiry.Product;
 import com.example.ecommerceproduct.repository.ProductRepository;
-import com.example.ProductFilterECommerceSystemApplication.spec.ProductSpecification;
+import com.example.ecommerceproduct.spec.ProductSpecification;
 import org.springframework.data.domain.*;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
