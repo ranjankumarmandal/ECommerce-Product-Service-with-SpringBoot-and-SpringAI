@@ -28,7 +28,13 @@ Output (Data Stored in H2 DB):
 ### 🔧 Prerequisites
 
 - Java 17+
-- Maven
+- Spring Boot 3.x
+- Spring Data JPA
+- H2 In-Memory Database
+- Spring Web
+- Spring AI
+- Lombok (optional)
+- Springdoc OpenAPI (Swagger UI)
 
 ### ▶️ Run the App
 
@@ -163,14 +169,6 @@ mvn spring-boot:run
 - JDBC URL: jdbc:h2:mem:productsdb
 - User: sa
 - Password: (leave blank)
-
-## Tech Stack
-- Spring Boot 3.x
-- Spring Data JPA
-- H2 In-Memory Database
-- Spring Web
-- Spring AI
-- Lombok (optional)
 
 ## License
 This project is licensed under the MIT License.
